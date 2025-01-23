@@ -1,0 +1,70 @@
+@use "variables" as *;
+
+body {
+  background-color: $dark;
+  color: #fff;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.accent-color {
+  color: $accent;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #111;
+  padding: 0 2rem;
+}
+
+.button,
+button {
+  background-color: $accent;
+  border: none;
+  border-radius: $border-radius;
+  padding: 16px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  display: block;
+
+  &:hover {
+    background-color: white;
+    color: $accent;
+  }
+
+  &:active {
+    transform: scale(0.95);
+    background-color: #ddd;
+  }
+}
+
+input {
+  background-color: #333;
+  border: none;
+  border-radius: $border-radius;
+  padding: 16px;
+  color: white;
+
+  &:focus {
+    outline: 2px solid $accent;
+  }
+}
+
+.link {
+  color: $accent;
+  text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "e606",
+      "username": "PaceGG",
+      "email": "yura3012004@gmail.com",
+      "password": "1"
+    },
+    {
+      "id": "ac77",
+      "username": "alter",
+      "email": "yura3012012312304@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1af1",
+      "username": "alter",
+      "email": "newmail@mail.ru",
+      "password": "1"
+    }
+  ]
+}
